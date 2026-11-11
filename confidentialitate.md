@@ -92,12 +92,12 @@ Aplicația este administrată de Operator. Întreținerea tehnică a Aplicației
 
 Pentru funcționarea Aplicației sunt utilizați următorii furnizori:
 
-| Furnizor                                        | Rol                    | Activitate                                                                                                                                                                                                                         |
-| ----------------------------------------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Supabase Pte. Ltd. (Singapore)                  | Persoană împuternicită | Găzduiește baza de date, fișierele (contractele) și serviciul de autentificare. Datele sunt stocate pe servere din Frankfurt, Germania (UE).                                                                                       |
-| 650 Industries, Inc. (Expo), SUA                | Persoană împuternicită | Transmite notificările push către Apple Push Notification service (iOS) sau Firebase Cloud Messaging (Android), care le livrează pe dispozitiv. O notificare conține titlul și textul afișat, de exemplu ziua și ora unei ședințe. |
-| Google Ireland Limited                          | Operator independent   | Autentifică Utilizatorul prin opțiunea „Continuă cu Google” și transmite Operatorului doar numele, adresa de e-mail și identificatorul contului. Ședințele online au loc pe Google Meet, în afara Aplicației.                      |
-| Apple Distribution International Ltd. (Irlanda) | Operator independent   | Autentifică Utilizatorul prin opțiunea „Continuă cu Apple” și transmite Operatorului doar numele, adresa de e-mail (reală sau de redirecționare) și identificatorul contului. Livrează notificările push pe iPhone.                |
+| Furnizor                                        | Rol                    | Activitate                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Supabase Pte. Ltd. (Singapore)                  | Persoană împuternicită | Găzduiește baza de date, fișierele (contractele) și serviciul de autentificare. Datele sunt stocate pe servere din Frankfurt, Germania (UE).                                                                                                                                                                                                                                                                                                    |
+| 650 Industries, Inc. (Expo), SUA                | Persoană împuternicită | Transmite notificările push către Apple Push Notification service (iOS) sau Firebase Cloud Messaging (Android), care le livrează pe dispozitiv. O notificare conține titlul și textul afișat, de exemplu ziua și ora unei ședințe.                                                                                                                                                                                                              |
+| Google Ireland Limited                          | Operator independent   | Autentifică Utilizatorul prin opțiunea „Continuă cu Google” și transmite Operatorului doar numele, adresa de e-mail și identificatorul contului. Ședințele online au loc pe Google Meet, în afara Aplicației. Camera Google Meet a fiecărui client este creată în contul Google al Operatorului, iar ședințele (numele clientului, data, ora și linkul Meet) sunt copiate într-un calendar separat din același cont, vizibil doar Operatorului. |
+| Apple Distribution International Ltd. (Irlanda) | Operator independent   | Autentifică Utilizatorul prin opțiunea „Continuă cu Apple” și transmite Operatorului doar numele, adresa de e-mail (reală sau de redirecționare) și identificatorul contului. Livrează notificările push pe iPhone.                                                                                                                                                                                                                             |
 
 Google și Apple prelucrează datele contului conform propriilor politici: [Politica de confidențialitate Google](https://policies.google.com/privacy) și [Politica de confidențialitate Apple](https://www.apple.com/legal/privacy/).
 
@@ -115,7 +115,7 @@ Unii furnizori au sediul sau echipe de suport în afara Spațiului Economic Euro
 
 - **Supabase** poate accesa datele din Singapore sau din alte țări exclusiv în scop de suport tehnic și securitate, în baza clauzelor contractuale standard aprobate de Comisia Europeană (Decizia (UE) 2021/914), incluse în [acordul de prelucrare a datelor Supabase](https://supabase.com/legal/dpa).
 - **Expo** transmite notificările push prin servere din SUA, în baza deciziei de adecvare privind Cadrul UE-SUA pentru protecția datelor (EU-US Data Privacy Framework) și, după caz, a clauzelor contractuale standard.
-- **Google** și **Apple** pot transfera datele contului în SUA, în baza aceleiași decizii de adecvare sau a clauzelor contractuale standard.
+- **Google** și **Apple** pot transfera în SUA datele contului și, în cazul Google, calendarul și camerele Meet ale Operatorului, în baza aceleiași decizii de adecvare sau a clauzelor contractuale standard.
 
 O copie a garanțiilor aplicabile poate fi obținută la cerere.
 
@@ -192,7 +192,7 @@ Pe telefonul Utilizatorului sunt păstrate, criptat, doar datele necesare menți
 
 Politica poate fi actualizată în cazul modificării Aplicației, a furnizorilor sau a legislației. Versiunea în vigoare este disponibilă permanent în Aplicație și la adresa [bencehach.github.io/soul-talks-legal/confidentialitate](https://bencehach.github.io/soul-talks-legal/confidentialitate/). La fiecare modificare importantă, Utilizatorul este rugat, în Aplicație, să citească și să accepte noua versiune.
 
-Versiunea 1.0, în vigoare de la 11 noiembrie 2026.
+Versiunea 1.1, în vigoare de la 11 noiembrie 2026.
 
 ## 13. Identitatea și datele de contact ale Operatorului
 
